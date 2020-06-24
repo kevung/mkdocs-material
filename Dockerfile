@@ -43,6 +43,9 @@ RUN \
     'mkdocs-minify-plugin>=0.2' \
     'mkdocs-git-revision-date-localized-plugin>=0.4' \
     'mkdocs-awesome-pages-plugin>=2.2.1' \
+    'mkdocs-bibtex>=0.2.3' \
+    'mkdocs-img2fig-plugin>=0.9.2' \
+    'mkdocs-mermaid2-plugin>=0.2.3' \
   && apk del .build gcc musl-dev \
   && rm -rf /tmp/*
 
